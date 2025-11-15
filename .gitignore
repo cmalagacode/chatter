@@ -1,0 +1,29 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of go build
+*.out
+
+# Vendor directory (if not vendoring explicitly)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# db
+dev.db
+
+# Added by cargo
+
+/target
+
+.env
